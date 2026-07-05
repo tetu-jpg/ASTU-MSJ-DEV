@@ -1,11 +1,11 @@
-My To-Do List App
+    My To-Do List App
 
 A light-weight , feature-packed to do list application built using HTML,CSS & JAVASCRIPT.
 
 This project manages fdata using a custom javascript array ans preserves state by implementing string-parsing system for localstorage without relying on json.
 
 
-featuers
+    featuers
 
 Add Tasks: Quick text input field with automatic clearance and blank input protection.
 
@@ -17,14 +17,16 @@ Task Counter: Real-time counter at the top showing exactly how many tasks are le
 
 
 
-Technology Stack
+      Technology Stack
 
 HTML5
+
 CSS3
+
 JAVASCRIPT(ES6+)
 
 
-Behind the scene:
+    Behind the scene:
 Iam Tesnim Abdella Ahmed,
 github
 :https://github.com/tetu-jpg
