@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle, #FFF1E6 0%, #F5CEB6 60%, #ECA87E 100%);
+    background-attachment: fixed;
+    
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-left: 80px;
+    background-color: #1E5631;
+}
+
+.nav-brand{
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+    margin-right: 170px;
+}
+
+.menu-btn{
+    text-decoration: none;
+    color: white;
+}
+
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.search-input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+}
+
+
+
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px 100px;
+    gap: 20px;
+}
+
+
+
+.blog{
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #1E5631;
+    border: 2px solid #78ae78;
+    color: #FFF1E6;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog:hover{
+    transform: scale(1.08);
+}
+
+.blog-title{
+    padding: 0 10px;
+}
+
+.blog-body{
+    margin-top: 10px;
+}
+
+.blog-icon{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    color: #1E5631;
+}
+
+.post-link{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    border-top: 2px solid #1E5631;
+}
+
+
+
+.blog-body{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.readmore{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.readmore:hover{
+    text-decoration: underline;
+}
+
+.fav-btn{
+    margin-left: 10px;
+}
+
+
+
+.form-container{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.form-title input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+h6{
+    margin-bottom: 0;
+    color: darkgray;
+}
+
+.form-title{
+    margin: 30px 0 20px 40px;
+    
+    
+}
+
+.new-description{
+    margin: 30px 0 20px 40px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    margin: 30px 0 10px 400px;
+    padding: 6px;
+}
+
+.file{
+    margin: 30px 0 10px 40px;
+}
+.form-title input{
+    border: 2px solid #1E5631;
+}
+.form-container{
+    border: 2px solid #1E5631;
+    border-radius: 20px;
+}
+.new-description textarea{
+    border: 2px solid #1E5631;
+    border-rdius: 20px;
+}
+.newblog-btn{
+    border: 2px solid #1E5631;
+    border-radius: 20px;
+    padding: 12px;
+}
+.detail-post-container{
+    margin: 30px;
+    width: 50%;
+    margin-left: 200px;
+    border: 2px solid #1E5631;
+    border-radius: 20px;
+    padding: 24px;
+}
+.title-description{
+    gap: 20px;
+    margin-bottom: 20px;
+}
+@media(max-width: 768px){
+
+    .nav{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+
+    ul{
+        flex-direction: column;
+        margin-right: 0;
+        gap: 10px;
+    }
+
+
+    .posts-container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+
+
+    .blog{
+        width: 100%;
+    }
+
+
+    .search-container{
+        margin: 30px 0;
+    }
+
+
+    .search-input{
+        width: 90%;
+    }
+    .form-title{
+        color: #1E5631;
+    }
+
+
+    .form-container{
+        width: 65%;
+        margin: 30px auto;
+        border-radius: 20px;
+        border: 2px solid #1E5631;
+    }
+
+
+    .form-title input{
+        width: 100%;
+        
+    }
+    .newblog-btn{
+        margin-left: 400px;
+    }
+
+
+    button{
+        margin-left: 0;
+    }
+}
