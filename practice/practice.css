@@ -1,0 +1,38 @@
+
+body{
+    background: linear-gradient(to right, green, yellow, pink);
+}
+.box{
+    
+    background-color: black;
+    color: transparent;
+    background-clip: inherit;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px 10px inset brown;
+    background-image: url() url();
+    background-position: right left;
+    background-size: contain cover;
+    
+}
+h1{
+    animation: move 5s ease-in;
+    color: green;
+    
+   
+}
+@keyframes move{
+ from{
+    transform: translateX(-20px);
+ }
+ to{
+    transform: translateX(20px);
+ }
+}
+.box p{
+    animation: move 1s ease-in ;
+   
+}
+p{
+    color: green;
+}
