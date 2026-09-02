@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.main{
+    width: 90%;
+    margin: 20px auto;
+}
+
+@media(max-width: 1400px){
+   body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    
+}
+.element{
+    
+    padding: 50px 0px;
+    
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+
+}
+
+
+.element-description{
+    margin-top: 10px;
+    
+    font-size: 15px;
+    width: 350px;
+    gap: 10px;
+    color: hsl(303, 10%, 53%);
+    
+}
+p{
+    line-height: 24px;
+}
+.element-title{
+    padding: 10px;
+    width: 240px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 34px;
+}
+.star{
+    color: orange;
+    
+}
+.starr{
+    padding-right: 15px;
+
+}
+.element-container{
+   
+    
+    gap: 10px;
+    padding-top: 20px;
+  
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding-top: 50px 0;
+    
+}
+
+.rating-item{
+    
+    background-color: hsl(350, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+    font-size: 12px;
+    
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    height: 15%;
+
+}
+
+.review{
+    padding: 50px 0px;
+    width: 85%;
+    padding-top: 20px;
+    
+    
+}
+ 
+.review-container{
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       margin-top: 2px;
+       height: 210px;
+       
+       
+}
+.review-element{
+    
+    padding: 20px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    
+}
+h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: hsl(333, 80%, 67%);
+}
+.ire{
+    margin-top: 18px;
+   
+}
+
+.anne{
+    margin-top: 36px;
+    
+}
+.profile{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+img{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}.attribution{
+    font-size: 10px;
+    padding-top: 500px;
+    
+}
+}
+
+@media (min-width: 1440px){
+    .main{
+        max-width:1200px
+    }
+
+
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    
+}
+.element{
+    
+    padding: 50px 50px;
+    
+   
+}
+.container{
+    display: flex;
+    
+    gap: 60px;
+    
+
+}
+
+
+.element-description{
+    margin-top: 10px;
+    
+    font-size: 15px;
+    width: 350px;
+    gap: 10px;
+    color: hsl(303, 10%, 53%);
+    
+}
+p{
+    line-height: 24px;
+}
+.element-title{
+    padding: 10px;
+    width: 240px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 34px;
+}
+.star{
+    color: orange;
+    
+}
+.starr{
+    padding-right: 15px;
+
+}
+.element-container{
+   
+    
+    gap: 10px;
+    padding-top: 20px;
+  
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 200px;
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+.rating-item{
+    
+    background-color: hsl(350, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+    font-size: 12px;
+    width: 100%;
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    height: 15%;
+
+}
+.first{
+    margin-left: 30px;
+}
+.second{
+    margin-left: 60px;
+}
+.review{
+    padding: 50px 50px;
+    width: 85%;
+    padding-top: 20px;
+    
+    
+}
+ 
+.review-container{
+       display: flex;
+       
+       gap: 20px;
+       margin-top: 2px;
+       height: 210px;
+       
+       
+}
+.review-element{
+    
+    padding: 20px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    
+}
+h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: hsl(333, 80%, 67%);
+}
+.ire{
+    margin-top: 18px;
+   
+}
+
+.anne{
+    margin-top: 36px;
+    
+}
+.profile{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+img{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}.attribution{
+    font-size: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+}
